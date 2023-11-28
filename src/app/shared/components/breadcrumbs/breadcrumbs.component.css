@@ -1,0 +1,15 @@
+.breadcrumbs__wrapper {
+  width: 100%;
+  padding: 25px 85px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+
+.breadcrumbs__holder {
+  color:  #464A5A;
+  font-size:  14px;
+  font-family:  "SourceSansPro-Bold";
+  text-transform:  none;
+  text-align:  left;
+  font-weight:  700;
+}

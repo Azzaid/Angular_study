@@ -1,0 +1,17 @@
+.addCourse__wrapper {
+  padding: 0px 85px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.addCourse__button {
+  border-radius:  3px;
+  background:  #009ECC;
+  color: #FFFFFF;
+  height:  36px;
+  min-width:  110px;
+  border: none;
+}

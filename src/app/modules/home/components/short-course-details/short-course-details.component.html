@@ -1,1 +1,15 @@
-<p>short-course-details works!</p>
+<div class="shortCourseDetails__Wrapper" *ngIf="!!course">
+  <div class="shortCourseDetails__mainDetailHolder">
+    <div class="shortCourseDetails__courseName">{{course.title}}</div>
+    <div class="shortCourseDetails__courseTiming">{{course.creationDate}}{{course.duration}}</div>
+  </div>
+  <div class="shortCourseDetails__courseDetailsBodyWrapper">
+    <div class="shortCourseDetails__courseDescription">
+      {{course.description}}
+    </div>
+    <div class="shortCourseDetails__controlsHolder">
+      <button class="shortCourseDetails__controlButton">Edit</button>
+      <button class="shortCourseDetails__controlButton">Delete</button>
+    </div>
+  </div>
+</div>
