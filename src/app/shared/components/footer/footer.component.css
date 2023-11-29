@@ -1,0 +1,13 @@
+.footer__wrapper {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background:  #303240;
+  height:  60px;
+  width: 100%;
+  padding: 16px 85px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,78 @@
+.appHeader__wrapper {
+  width: 100%;
+}
+
+.appHeader__mainHeaderWrapper {
+  background:  #303240;
+  height:  60px;
+  width: 100%;
+  padding: 16px 85px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appHeader__appNameWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.appHeader__logo {
+  position: relative;
+  height:  30px;
+  width:  20px;
+}
+
+.appHeader__logoOval {
+  box-sizing:  border-box;
+  border-color:  #979797;
+  border-width:  2px;
+  border-style:  solid;
+  height:  28px;
+  width:  28px;
+  position: absolute;
+}
+
+.appHeader__logoTriangle {
+  background-image:  linear-gradient(141deg, #0079AD 11%, #B4D084 100%);
+  transform:  rotate(-270deg);
+  border-radius:  1px;
+  background-color:  #D8D8D8;
+  height:  12px;
+  width:  16px;
+}
+
+.appHeader__logoText {
+  color:  #FFFFFF;
+  font-size:  18px;
+  font-family:  "SourceSansPro-Bold";
+  text-align:  left;
+  font-weight:  700;
+  text-transform:  uppercase;
+  height:  23px;
+  width:  118px;
+  text-transform: capitalize;
+}
+
+
+
+.appHeader__loginControlWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.appHeader__loginButton {
+  line-height:  24px;
+  letter-spacing:  0;
+  color:  #FFFFFF;
+  font-size:  14px;
+  font-family:  "SourceSansPro-Regular";
+  text-transform:  none;
+  text-align:  left;
+  height:  24px;
+  width:  59px;
+}
+

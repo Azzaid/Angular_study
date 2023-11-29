@@ -1,0 +1,26 @@
+.searchCourse__wrapper {
+  padding: 21px 85px 0px 85px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+}
+
+.searchCourse__inputWrapper input{
+  width: 240px;
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid #CED0DB;
+}
+
+.searchCourse__submitButton {
+  margin-left: 12px;
+  border-radius:  3px;
+  color: #FFFFFF;
+  background:  #67A300;
+  height:  36px;
+  min-width:  73px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

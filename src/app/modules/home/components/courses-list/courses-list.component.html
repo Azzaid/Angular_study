@@ -1,1 +1,7 @@
-<p>courses-list works!</p>
+<div class="coursesList__wrapper">
+  <app-search-course/>
+  <app-add-course/>
+  <div class="coursesList__coursesPrevievListHolder">
+    <app-short-course-details *ngFor="let course of coursesList; trackBy:identifyById" [course]="course"/>
+  </div>
+</div>

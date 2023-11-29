@@ -1,1 +1,6 @@
-<p>search-course works!</p>
+<div class="searchCourse__wrapper">
+  <div class="searchCourse__inputWrapper">
+    <input [(ngModel)]="searchString"/>
+  </div>
+  <button class="searchCourse__submitButton" type="button" (click)="handleSearch()"> Search </button>
+</div>
